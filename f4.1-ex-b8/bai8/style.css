@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.color-white {
+    color:  #fff;
+}
+
+.font-img {
+    font-size: 30px;
+
+    font-weight: 200;
+}
+
+.container {
+    margin: 20px 400px;
+    padding: 20px 0;
+
+    min-width: 1000px;
+    height: 600px;
+}
+
+.container h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.courses-list {
+    list-style: none;
+    margin-top: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.courses-list li {
+    background-color: #fff;
+    width: 31.5%;
+}
+
+.img-course {
+    background-color: #DEA4DE;
+    height: 220px;
+}
+
+.course-title {
+    font-size: 26px;
+    font-weight: 500;
+
+    margin-top: 16px;
+}
+
+.course-info {
+    margin-top: 16px;
+}
+
+.course-info span {
+    margin-right: 8px;
+}
+
+.course-description {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.course-item a {
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    margin-top: 18px;
+    display: inline-block;
+}

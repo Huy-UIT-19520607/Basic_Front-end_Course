@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.col-first {
+    width: 100%;
+}
+
+.col-second {
+    width: 48%;
+}
+
+.remove-resize {
+    resize: none;
+}
+
+.container {
+    margin: 15px 400px;
+    background-color: #F2F3F5;
+    padding: 40px 30px;
+
+    min-width: 1000px;
+    height: 600px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+form * {
+    padding: 14px 20px;
+    margin-bottom: 30px;
+
+    border: none;
+
+    font-size: 15px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #000;
+}
+
+input::placeholder,
+select,
+textarea::placeholder {
+    color: rgb(194, 194, 194);
+    font-size: 15px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+form textarea {
+    resize: none;
+}
+
+select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.select-wrapper {
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+}
+
+.select-wrapper::after {
+    content: "▼";
+    font-size: 1em;
+    color: rgb(194, 194, 194);
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+form button {
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+}

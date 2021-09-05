@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Arial', sans-serif;
+}
+
+.text-content-grey {
+    color: #A2A2A3 !important;
+}
+
+.text-mark {
+    background-color: #01B9D1 !important;
+    color: #fff !important;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 20px auto;
+
+    max-width: 1200px;
+
+    word-spacing: 0.2em;
+}
+
+.container h1 {
+    text-align: center; 
+    margin-bottom: 100px;
+
+    font-size: 40px;
+
+    font-weight: 100;
+}
+
+.float-box {
+    flex: 1;
+    box-shadow: 0 0 50px 10px #ccc;
+    padding: 60px 50px;
+}
+
+.float-box .p1 {
+    font-size: 26px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.float-box .p2 {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+
+.float-box .p3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.float-box .p4 {
+    font-size: 13px;
+    opacity: 0.7;
+
+}
+
+.content {
+    flex: 1.7;
+    padding-left: 80px;
+}
+
+.content .p1 {
+    line-height: 1.8;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.content .p2 {
+    line-height: 1.8;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.content .p3 {
+    line-height: 1.8;
+    color: #666666;
+}

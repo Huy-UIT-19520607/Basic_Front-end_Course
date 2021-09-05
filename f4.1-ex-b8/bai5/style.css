@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Arial', sans-serif;
+}
+
+.text-content-grey {
+    color: #A2A2A3 !important;
+}
+
+.text-mark {
+    background-color: #01B9D1 !important;
+    color: #fff !important;
+}
+
+.container {
+    margin: 100px 300px;
+    
+    display: flex;
+}
+
+
+.img-left {
+    background-color: #2E2E2E;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+
+    /* margin-right: 100px; */
+}
+
+.img-text {
+    font-size: 48px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.content {
+    flex: 1;
+    margin-left: 80px;
+}
+
+.heading h1 {
+    font-size: 38px;
+}
+
+.heading hr {
+    width: 1.6em;
+    background: linear-gradient(90deg, rgb(107, 160, 220), rgb(114, 111, 197));
+
+    height: 3px;
+
+    border: none;
+    margin-top: 10px;
+}
+
+.description-text {
+    margin: 40px 0;
+    line-height: 1.5;
+}
+
+.reason-title {
+    font-size: 22px;
+}
+
+/* .check-list {
+    
+    margin-top: 10px;
+    margin-left: -40px;
+} */
+ 
+.check-list{
+    list-style: none;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.check-list li {
+    margin: 12px 0;
+    font-size: 14px;
+    width: 50%;
+}
+
+.check-list li i {
+    color: #01B9D1;
+}
