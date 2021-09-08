@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.main {
+    background-image: linear-gradient(#bfc0d6, #3e4144, #2c2f31);
+    color: #fff;
+}
+
+.header {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.background {
+    background-image: url(https://halotravel.vn/wp-content/uploads/2021/03/anh-bia-fb-dep-1024x342.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 350px;
+
+    position: relative;
+    cursor: pointer;
+}
+
+.avatar-area {
+    width: 180px;
+    height: 180px;
+
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.avatar-area .avatar {
+    border-radius: 50%;
+    border: 3px solid #000;
+
+    position: absolute;
+    bottom: 0px;
+    width: 180px;
+    height: 180px;
+}
+
+.avatar-area .change-avatar {
+    border: none;
+    border-radius: 50%;
+    background-color: #444444;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px;
+
+    position: absolute;
+    right: 10px;
+    bottom: 14px;
+}
+
+.background .change-background {
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.background .avatar:hover,
+.background .change-avatar:hover,
+.background .change-background:hover {
+    filter: brightness(95%);
+    cursor: pointer;
+}
+
+.full-name {
+    text-align: center;
+    margin: 30px 20px 20px;
+}
+
+.full-name a {
+    text-decoration: none;
+    color: #2E89FF;
+    font-size: 15px;
+}
+
+.function-btn {
+    border-top: 1px solid rgba(204, 204, 204, 0.2);
+    margin: 0 40px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.function-btn ul {
+    list-style: none;
+    display: flex;
+}
+
+.function-btn .info-page li {
+    padding: 4px 0;
+}
+
+.function-btn .info-page button {
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #ccc;
+    font-size: 15px;
+    padding: 16px;
+}
+
+.function-btn .info-page button:hover {
+    background-color: rgb(63, 65, 66);
+    cursor: pointer;
+}
+
+.function-btn .info-page li:first-child button {
+    border-radius: 0;
+    color: rgba(46, 137, 255);
+    border-bottom: 3px solid rgba(46, 137, 255);
+}
+
+.function-btn .edit-page li {
+    padding: 10px 0;
+}
+
+.function-btn .edit-page button {
+    border: none;
+    border-radius: 8px;
+
+    background-color: #444444;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.function-btn .edit-page button:first-child {
+    background-color: rgba(46, 137, 255);
+}
+
+.function-btn .edit-page button:hover {
+    filter: brightness(110%);
+    cursor: pointer;
+}
