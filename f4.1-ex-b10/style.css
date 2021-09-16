@@ -37,6 +37,10 @@
     opacity: 0.5;
 }
 
+.btn:active {
+    animation: btnClick ease .5s backwards;
+}
+
 @keyframes btnClick {
     50% {
         transform: scale(80%);
